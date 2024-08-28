@@ -1,0 +1,67 @@
+# Звичайні файли та каталоги
+bin/
+obj/
+*.log
+*.vspscc
+*.vssscc
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+*.dotCover
+*.ncrunch*
+*.Build.cs
+*.dbmdl
+*.opendb
+*.sql
+*.sqlite
+*.swp
+*.psess
+*.vspx
+*.vsp
+*.vspx
+*.vsdconfig
+*.vsp
+
+# Системні файли macOS
+.DS_Store
+
+# IDE специфічні файли
+.vscode/
+.vs/
+
+# Зовнішні бібліотеки
+packages/
+*.nupkg
+*.snupkg
+*.lock.json
+project.lock.json
+project.fragment.lock.json
+
+# Резервні файли
+*.bak
+*.dmp
+*.bak*
+
+# Azure функції
+.local.settings.json
+
+# Logs
+log/
+*.log
+*.log.*
+
+# Runtime
+*.pidb
+*.pdb
+*.mdb
+*.ilk
+*.meta
+*.obj
+
+# Компільовані DLL-файли
+*.dll
+
+# Інші файли Visual Studio
+Backup/
+_ReSharper.*
