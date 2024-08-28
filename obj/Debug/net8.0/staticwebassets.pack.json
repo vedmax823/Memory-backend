@@ -1,0 +1,77 @@
+{
+  "Files": [
+    {
+      "Id": "/Users/maksimvedernikov/Documents/c#/Memory/Memory/wwwroot/images/p1.jpg",
+      "PackagePath": "staticwebassets/images/p1.jpg"
+    },
+    {
+      "Id": "/Users/maksimvedernikov/Documents/c#/Memory/Memory/wwwroot/images/p10.jpg",
+      "PackagePath": "staticwebassets/images/p10.jpg"
+    },
+    {
+      "Id": "/Users/maksimvedernikov/Documents/c#/Memory/Memory/wwwroot/images/p11.jpg",
+      "PackagePath": "staticwebassets/images/p11.jpg"
+    },
+    {
+      "Id": "/Users/maksimvedernikov/Documents/c#/Memory/Memory/wwwroot/images/p12.jpg",
+      "PackagePath": "staticwebassets/images/p12.jpg"
+    },
+    {
+      "Id": "/Users/maksimvedernikov/Documents/c#/Memory/Memory/wwwroot/images/p13.jpg",
+      "PackagePath": "staticwebassets/images/p13.jpg"
+    },
+    {
+      "Id": "/Users/maksimvedernikov/Documents/c#/Memory/Memory/wwwroot/images/p14.jpg",
+      "PackagePath": "staticwebassets/images/p14.jpg"
+    },
+    {
+      "Id": "/Users/maksimvedernikov/Documents/c#/Memory/Memory/wwwroot/images/p2.jpg",
+      "PackagePath": "staticwebassets/images/p2.jpg"
+    },
+    {
+      "Id": "/Users/maksimvedernikov/Documents/c#/Memory/Memory/wwwroot/images/p3.jpg",
+      "PackagePath": "staticwebassets/images/p3.jpg"
+    },
+    {
+      "Id": "/Users/maksimvedernikov/Documents/c#/Memory/Memory/wwwroot/images/p4.jpg",
+      "PackagePath": "staticwebassets/images/p4.jpg"
+    },
+    {
+      "Id": "/Users/maksimvedernikov/Documents/c#/Memory/Memory/wwwroot/images/p5.jpg",
+      "PackagePath": "staticwebassets/images/p5.jpg"
+    },
+    {
+      "Id": "/Users/maksimvedernikov/Documents/c#/Memory/Memory/wwwroot/images/p6.jpg",
+      "PackagePath": "staticwebassets/images/p6.jpg"
+    },
+    {
+      "Id": "/Users/maksimvedernikov/Documents/c#/Memory/Memory/wwwroot/images/p7.jpg",
+      "PackagePath": "staticwebassets/images/p7.jpg"
+    },
+    {
+      "Id": "/Users/maksimvedernikov/Documents/c#/Memory/Memory/wwwroot/images/p8.jpg",
+      "PackagePath": "staticwebassets/images/p8.jpg"
+    },
+    {
+      "Id": "/Users/maksimvedernikov/Documents/c#/Memory/Memory/wwwroot/images/p9.jpg",
+      "PackagePath": "staticwebassets/images/p9.jpg"
+    },
+    {
+      "Id": "obj/Debug/net8.0/staticwebassets/msbuild.Memory.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj/Debug/net8.0/staticwebassets/msbuild.build.Memory.props",
+      "PackagePath": "build\\Memory.props"
+    },
+    {
+      "Id": "obj/Debug/net8.0/staticwebassets/msbuild.buildMultiTargeting.Memory.props",
+      "PackagePath": "buildMultiTargeting\\Memory.props"
+    },
+    {
+      "Id": "obj/Debug/net8.0/staticwebassets/msbuild.buildTransitive.Memory.props",
+      "PackagePath": "buildTransitive\\Memory.props"
+    }
+  ],
+  "ElementsToRemove": []
+}
