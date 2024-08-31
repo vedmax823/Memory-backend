@@ -18,8 +18,11 @@ public class CardService : ICardService
     public async Task<Card?> GetCard(UpdateCardDto updateCardDto){
         var game = await _gameRepository.GetGameById(updateCardDto.GameId)
             ?? throw new ArgumentException("Game not found with the provided details.");
+        if (game.OpenCards.Count == 2) throw new ArgumentException("2 Cards are already opened.");
         var card = game.Field.FirstOrDefault(c => c is not null && c.Id == updateCardDto.CardId) 
             ?? throw new ArgumentException("Card not found with the provided details.");
+        game.OpenCards.Add(card.Id);
+        await _gameRepository.UpdateGame(game);
         return card;
     }
 
@@ -34,7 +37,8 @@ public class CardService : ICardService
         if (game.TurnUser != userId) throw new ArgumentException("Not your turn");
         card.IsOpen = true;
 
-        await _cardRepository.SaveCard(card);
+        game.OpenCards.Add(card.Id);
+        await _gameRepository.UpdateGame(game);
         return game;
     } 
 

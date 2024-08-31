@@ -14,6 +14,7 @@ public record class GameDto
     int MaxPlayersCount,
     List<UserDto> Users,
     Guid TurnUser,
-    bool IsStarted
+    bool IsStarted,
+    List<Guid> OpenCards
 
 );

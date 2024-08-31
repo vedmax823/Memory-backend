@@ -36,7 +36,13 @@ public class GameService(IGameRepository repository, IUserRepository userReposit
         var secondCard = game.Field.FirstOrDefault(card => card.Id == secondId);
 
         if (firstCard is null || secondCard is null) throw new ArgumentNullException("Not two card selected");
-        if (firstCard.IsOpen && secondCard.IsOpen && (firstCard.Link == secondCard.Link)) return game;
+        game.OpenCards.Clear();
+        if (firstCard.IsOpen && secondCard.IsOpen && (firstCard.Link == secondCard.Link))
+        {
+            await _repository.UpdateGame(game);
+            return game;
+        }
+        
         
         firstCard.IsOpen = false;
         secondCard.IsOpen = false;

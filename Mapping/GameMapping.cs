@@ -49,7 +49,8 @@ public static class GameMapping
             game.MaxPlayersCount,
             MakeUserListDto(game.Users),
             game.TurnUser,
-            game.IsStarted
+            game.IsStarted,
+            game.OpenCards
         );
     }
 

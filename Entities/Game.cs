@@ -14,4 +14,5 @@ public class Game
     public bool IsStarted {get; set;} = false;
     public bool IsFinished {get; set;} = false;
     public Guid TurnUser {get; set;}
+    public List<Guid> OpenCards {get; set;} = [];
 }
